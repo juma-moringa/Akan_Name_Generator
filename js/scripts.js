@@ -22,7 +22,8 @@ function results (){
     }
     
     if (day < 1 || day > 31){
-        alert("Opps something wasn't right. Please input the correct day again.")
+        alert("Opps something wasn't right. Please input the correct day again.");
+        return false;
 
     }
     if(gender === "male"){
@@ -32,4 +33,15 @@ function results (){
     else {
         akanName = Female[outputDay];
     }
+
+    alert("Your Akan name is  "+akanName+ " and you were born on "+ dayOfTheWeek[outputDay]);
+}
+
+function print(){
+    let gender = document.getElementByName("gender");
+for (i = 0; i < gender.length; i ++) {
+    if(gender[i] .checked) {
+        return( gender[i] .value)
+    }
+}
 }
