@@ -16,6 +16,7 @@ To access this project on your local files, you can clone it using these steps
 ### Technologies Used
 1. HTML
 1. CSS
+1. JAVASCRIPT 
 1. Git
 ### Live Site
 View [live](add the .io link)
