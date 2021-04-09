@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan name generator</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1>AKAN name generator</h1>
+        <img src="./image/akan.jpg" alt="">
+        <h3>Discover what day you were born on,</br>
+            your ghanian AKAN name using our newly created akan name generator,</br>hope you'll all enjoy this new and
+            improved
+            application.</h3>
+
+        <div class="row">
+            <div class="col-md-6">
+                <form class="form-container" id="form">
+                    <h3>Your information</h3>
+                    <div class="form-group">
+                        <label for="date">Date.</label>
+                        <input type="numbers" class="form-control" name="date" id="date" maxlength="31">
+                        <div class="form-group">
+                            <label for="month">Month.</label>
+                            <input type="numbers" class="form-control" name="month" id="month" maxlength="12">
+                            <div class="form-group">
+                                <label for="year">Year of Birth.</label>
+                                <input type="numbers" class="form-control" name="year of birth" id="year of birth"
+                                    maxlength="1950">
+
+                            </div>
+                            <div class="radio-buttons">
+                                <label for="Female">Female</label>
+                                    <input type="radio" name="Female"  id="Female" >
+                              
+                                <label for="Male">Male</label>
+                                    <input type="radio" name="Male" id="Male" >
+                                   <button type="generate" onclick="getAkanName()" class="btn btn-success" onclick="clearAkanName()" class="btn btn-success btn-block">clear</button>
+                                   <footer class="footer">
+                                       <p> @Jaycreations -2021</p>
+                                   </footer>
+                                   <script src="js/scripts.js"></script>
+                              </div>
+
+                        </div>
+
+                    </div>
+
+            </div>
+            </form>
+
+        </div>
+    </div>
+    </div>
+
+
+
+    </div>
 </body>
+
 </html>
