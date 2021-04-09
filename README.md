@@ -19,6 +19,6 @@ To access this project on your local files, you can clone it using these steps
 1. JAVASCRIPT 
 1. Git
 ### Live Site
-View [live](add the .io link)
+View [live]( https://juma-moringa.github.io/Akan_Name_Generator/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence.
