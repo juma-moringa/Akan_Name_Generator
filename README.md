@@ -18,6 +18,7 @@ To access this project on your local files, you can clone it using these steps
 1. CSS
 1. JAVASCRIPT 
 1. Git
+1. Bootstrap
 ### Live Site
 View [live]( https://juma-moringa.github.io/Akan_Name_Generator/)
 ### Licence

@@ -45,3 +45,10 @@ for (i = 0; i < gender.length; i ++) {
     }
 }
 }
+function reset() {
+    location.reload();
+  } 
+
+
+
+  
