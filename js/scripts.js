@@ -46,7 +46,7 @@ for (i = 0; i < gender.length; i ++) {
 }
 }
 function reset() {
-    location.reload();
+    document.getElementById("buttons").reset();
   } 
 
 
