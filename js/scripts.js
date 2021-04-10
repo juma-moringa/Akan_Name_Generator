@@ -49,4 +49,3 @@ function reset() {
     document.getElementById("buttons").reset();
 }
 
-const result_p = document.getElementaryById("result")

@@ -19,6 +19,9 @@ To access this project on your local files, you can clone it using these steps
 1. JAVASCRIPT 
 1. Git
 1. Bootstrap
+### BDD
+1. Behaviour --------------input -------------- output.
+The user will be able to input his or her own details and in return the application will output the akan name and the birth day.
 ### Live Site
 View [live]( https://juma-moringa.github.io/Akan_Name_Generator/)
 ### Licence
