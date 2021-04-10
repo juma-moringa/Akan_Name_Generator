@@ -1,0 +1,9 @@
+img {
+    border-radius: 1cm;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    color: green;
+}

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan name generator</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -30,23 +30,23 @@
                     <h3>Please fill in your information in the form.</h3>
                     <div class="form-group">
                         <label for="date">Date.</label>
-                        <input type="numbers" class="form-control" name="date" id="date" maxlength="31">
+                        <input   id="date" type="numbers" class="form-control" name="date" max ="31">
                         <div class="form-group">
                             <label for="month">Month.</label>
-                            <input type="numbers" class="form-control" name="month" id="month" maxlength="12">
+                            <input id="month"  type="numbers" class="form-control" name="month" max ="12">
                             <div class="form-group">
                                 <label for="year">Year of Birth.</label>
-                                <input type="numbers" class="form-control" name="year of birth" id="year of birth"
-                                    maxlength="1950">
+                                <input id="year" type="numbers" class="form-control" name="year of birth" 
+                                    max ="2050">
                             </div>
                             <form id="buttons">
                                 <div class="radio-buttons">
                                     <label for="Female">Female</label>
-                                    <input type="radio" name="Gender" id="Female">
+                                    <input type="radio" name="gender" id="female">
                                     <label for="Male">Male</label>
-                                    <input type="radio" name="Gender" id="Male">
-                                    <button type="submit" onclick="getakanName()" class="btn btn-success"
-                                        class="btn btn-success btn-block">submit</button>
+                                    <input type="radio" name="gender" id="male">
+                                    <button type="submit" onclick="results()" class="btn btn-success"
+                                        class="btn btn-success btn-block" >submit</button>
                                     </buttons>
                                     <input type="reset" value="reset" class="btn btn-success btn-block">
                             </form>
