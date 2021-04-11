@@ -67,13 +67,10 @@ function getAkanName () {
             ((5*Number(yearOfBirth.slice(2,4))/4))+((26*(monthOfBirth+1)/10))+dayOfBirth)%7);
   
     //introducing the male and the female name arrays
-    let maleAkanNames = [
-        "KWASI", "KWADWO", "KWABENA", "KWAKU", "YAW", "KOFI", "KWAME"
-      ];
+    let maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+  
     
-      let femaleAkanNames = [
-        "AKOSUA", "ADWOA", "ABENAA", "AKUA", "YAA", "AFUA", "AMA"
-      ];
+      let femaleAkanNames = ["Akosua", "Adowoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
   
     //making sure that the input is valid
     if (myGenderValue == "male" && monthValid && dayValid){
