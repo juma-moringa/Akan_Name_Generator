@@ -16,8 +16,8 @@ To access this project on your local files, you can clone it using these steps
 ### Technologies Used
 1. HTML
 1. CSS
-1. JAVASCRIPT 
 1. Git
+1. JAVASCRIPT 
 1. Bootstrap
 ### BDD
 1. Behaviour --------------input -------------- output.
