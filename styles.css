@@ -3,7 +3,8 @@ img {
 }
 
 .footer {
-    display: flex;
     align-items: center;
-    color: green;
+    color: rgb(6, 48, 6);
+    display: flex;
+
 }

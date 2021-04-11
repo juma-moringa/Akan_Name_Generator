@@ -2,10 +2,11 @@ let dayOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Fri
 let Female = ["Akosua", "Adowoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 let Male = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
+
 function results() {
     let year = parseInt(document.getElementById("year").value);
     let month = parseInt(document.getElementById("month").value);
-    let day = parseInt(document.getElementById("day").value);
+    let day = parseInt(document.getElementById("date").value);
     let date = outputDate(year + "/" + month + "/" + day);
     let gender = print();
     let outputDay = date.getDay();
